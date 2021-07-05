@@ -1,0 +1,50 @@
+{
+  "name": "webpack-hot-client-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev node ./dev.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhijs/webpack-hot-client-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhijs/webpack-hot-client-example/issues"
+  },
+  "homepage": "https://github.com/zhijs/webpack-hot-client-example#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "jsdom": "^16.5.3",
+    "koa": "^2.13.1",
+    "koa-webpack-middleware": "^1.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^4.5.2",
+    "json-loader": "^0.5.7",
+    "koa-webpack": "^5.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-manifest-plugin": "^3.1.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
